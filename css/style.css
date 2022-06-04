@@ -28,4 +28,33 @@
 .navbar li{
     color: white;
 }
-
+.banner{
+    height: 40vmax;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+}
+.banner img{
+    width: 100%;
+}
+.banner .tulisan {
+    position: absolute;
+    color: #fff;
+    margin: 10%;
+    font-size: 30px;
+}
+.banner .tulisan h3{
+    line-height: 45px;
+}
+.banner .tulisan p{
+    color: #fff;
+    font-size: 15px;
+}
+.banner .tulisan button{
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
