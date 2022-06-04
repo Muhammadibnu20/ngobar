@@ -1,0 +1,2 @@
+# legiminganteng
+membuat project legimin
