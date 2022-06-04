@@ -8,25 +8,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 70px;
     width: 100%;
     background-color:#EC063D ;
+    padding: 10px;
 
 }
 
 .navbar img{
-    height: 90px;
-    width: 100px;
+    height: 60px;
+    width: 90px;
 }
 
 .navbar ul {
     display: flex;
     list-style: none;
-
+    padding: 5px;
 }
 
-.navbar ul li{
+.navbar li{
     color: white;
+    padding: 7px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 .banner{
     height: 40vmax;
